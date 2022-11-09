@@ -7,11 +7,11 @@ import { propertiesKitty, handleLiked, handleRemove } from "../Cards/slice/cats-
 import { BASE_URL, theOwner, unknownOwner, catTitle } from "../../utils/constants";
 import CircularLoader from "../Loader/CircularLoader";
 
-type Props = {
+type CardProps = {
   cat: propertiesKitty;
 };
 
-function CatCard({ cat }: Props) {
+function CatCard({ cat }: CardProps) {
   const dispatch = useDispatch<AppDispatch>();
   const [url, setUrl] = useState<string>("");
   const ownerData = cat.owner !== "null" ? `${theOwner} ${cat.owner}` : `${unknownOwner}`;

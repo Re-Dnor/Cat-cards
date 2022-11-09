@@ -3,11 +3,11 @@ import CatCard from "../../Card/Card";
 import EmptyCards from "../EmptyCards/EmptyCards";
 import { propertiesKitty } from "../slice/cats-slice";
 
-type Props = {
+type LikedCardProps = {
   cats: propertiesKitty[];
 };
 
-function LikedCards({ cats }: Props) {
+function LikedCards({ cats }: LikedCardProps) {
   const likedCats = cats.filter((cat) => cat.like);
 
   return (

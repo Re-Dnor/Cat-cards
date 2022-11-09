@@ -2,11 +2,11 @@ import { Grid } from "@mui/material";
 import CatCard from "../../Card/Card";
 import { propertiesKitty } from "../slice/cats-slice";
 
-type Props = {
+type AllCardsProps = {
   cats: propertiesKitty[];
 };
 
-function AllCards({ cats }: Props) {
+function AllCards({ cats }: AllCardsProps) {
   return (
     <>
       {cats.map((cat: propertiesKitty) => (

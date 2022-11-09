@@ -1,4 +1,5 @@
 import { Box, Typography, Container } from "@mui/material";
+import { albumKittiesSubtitle, albumKittiesTitle } from "../../utils/constants";
 
 function Title() {
   return (
@@ -10,10 +11,10 @@ function Title() {
     >
       <Container maxWidth="sm">
         <Typography component="h1" variant="h2" align="center" color="text.primary" gutterBottom>
-          Album kitties
+          {albumKittiesTitle}
         </Typography>
         <Typography variant="h5" align="center" color="text.secondary" paragraph>
-          To get a huge relaxation, just scroll with page.
+          {albumKittiesSubtitle}
         </Typography>
       </Container>
     </Box>

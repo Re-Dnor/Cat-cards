@@ -50,7 +50,6 @@ function CatCard({ cat }: Props) {
           <CircularLoader />
         </Box>
       )}
-
       <CardContent sx={{ flexGrow: 1 }}>
         <Typography gutterBottom variant="h5" component="h2">
           {catTitle}

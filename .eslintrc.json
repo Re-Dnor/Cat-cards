@@ -25,7 +25,6 @@
     "quotes": [2, "double", { "avoidEscape": true }],
     "@typescript-eslint/no-use-before-define": ["error"],
     "object-curly-spacing": ["error", "always"],
-    "array-bracket-spacing": ["error", "always"],
     "comma-spacing": ["error", { "before": false, "after": true }],
     "react/react-in-jsx-scope": "off",
     "no-console": "warn",
@@ -35,6 +34,18 @@
     "semi": ["warn", "always"],
     "comma-dangle": ["error", "never"],
     "@typescript-eslint/comma-dangle": "warn",
-    "@typescript-eslint/semi": "warn"
+    "@typescript-eslint/semi": "warn",
+    "prettier/prettier": [
+      "error",
+      {
+        "singleQuote": false,
+        "jsxSingleQuote": false,
+        "arrowParens": "always",
+        "printWidth": 120,
+        "tabWidth": 2,
+        "endOfLine": "auto",
+        "trailingComma": "none"
+      }
+    ]
   }
 }

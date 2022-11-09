@@ -1,6 +1,6 @@
 ## Cat cards :smiley_cat:
 
-### [Githab-pages](https://re-dnor.github.io/Cat-cards/)
+### [Github-pages](https://re-dnor.github.io/Cat-cards/)
 
 ### Used technologies
 - React
